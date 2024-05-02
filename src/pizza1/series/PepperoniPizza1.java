@@ -1,6 +1,6 @@
-package pizza.pizza1_series;
+package pizza1.series;
 
-import pizza.Pizza1;
+import pizza1.Pizza1;
 
 public class PepperoniPizza1 extends Pizza1 {
 

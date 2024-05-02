@@ -1,4 +1,4 @@
-package pizza;
+package pizza1;
 
 public class Pizza1 {
     
