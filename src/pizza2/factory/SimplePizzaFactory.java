@@ -1,6 +1,7 @@
 package pizza2.factory;
 
 import pizza2.Pizza2;
+import pizza2.Pizza2_2;
 import pizza2.series.CheesePizza2;
 import pizza2.series.ClamPizza2;
 import pizza2.series.PepperoniPizza2;
@@ -8,8 +9,8 @@ import pizza2.series.VeggiePizza2;
 
 public class SimplePizzaFactory {
 
-    public Pizza2 createPizza(String type) {
-        Pizza2 pizza;
+    public Pizza2_2 createPizza(String type) {
+        Pizza2_2 pizza;
 
         if (type.equals("cheese")) {
             pizza = new CheesePizza2();
