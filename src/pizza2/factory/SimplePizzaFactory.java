@@ -9,8 +9,8 @@ import pizza2.series.VeggiePizza2;
 
 public class SimplePizzaFactory {
 
-    public Pizza2_2 createPizza(String type) {
-        Pizza2_2 pizza;
+    public Pizza2 createPizza(String type) {
+        Pizza2 pizza;
 
         if (type.equals("cheese")) {
             pizza = new CheesePizza2();

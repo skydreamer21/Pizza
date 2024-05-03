@@ -18,6 +18,8 @@ public abstract class Pizza4Store {
         return pizza;
     }
 
+    abstract Pizza4 createPizza(String type);
+
     public void prepare(Pizza4 pizza) {
         pizza.prepare();
     }
@@ -33,6 +35,4 @@ public abstract class Pizza4Store {
     public void box(Pizza4 pizza) {
         pizza.box("Pizza4Store");
     }
-
-    abstract Pizza4 createPizza(String type);
 }
